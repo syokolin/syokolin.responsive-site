@@ -1,0 +1,123 @@
+/*header*/
+.box {
+    background-image: url("../images/img_xmas_500.jpg");
+    height: 500px;
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+}   
+
+/*main*/
+main {
+    background-color:darkolivegreen;
+    padding-top: 30px;
+}
+
+/*main-title*/
+h1 {
+    font-size: 25px;
+    color: cornsilk;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+/*main-idea*/
+.idea {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+}
+
+.container {
+    background-color:bisque;
+    margin: 10px;
+    width: 100%;
+    float: left;
+}
+
+.container h2 {
+    font-size: 20px;
+    color: cornsilk;
+    margin-bottom: 20px;
+    text-align: center;
+    white-space: nowrap;
+    background-color: brown;
+    padding: 10px;
+}
+
+p {
+    font-size: 15px;
+    margin: 15px;
+    line-height: 1.6;
+}
+
+/*main-next-button*/
+.next_button {
+    background-color:brown;
+    margin-top: 30px;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.next_button h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: cornsilk;
+    padding: 30px;
+}
+
+.next_button a {
+    background-color:burlywood;
+    color:black;
+    padding: 8px;
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.next_button a:hover {
+    border: solid 4px dimgrey;
+}
+
+.next_button a:active {
+    background-color: dimgray;
+    color: cornsilk;
+}
+
+/*@media*/
+@media (max-width: 768px){
+    .box {
+        height: 250px;
+    }
+    h1 {
+        font-size: 140%;
+        padding-bottom: 0;    
+    }
+    .idea {
+        flex-direction: column;
+        margin: 20px;
+        overflow: hidden;
+    }
+    .container {
+        width: auto;
+    }
+    .next_button h2 {
+        font-size: 95%;
+    }
+    .next_button a {
+        width: 70%;
+    }
+}
+
+/*footer*/
+footer {
+    background-color: darkolivegreen;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: cornsilk;   
+}
